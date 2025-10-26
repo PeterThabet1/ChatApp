@@ -56,5 +56,6 @@ def home():
     return render_template("home.html")
 
 
+#asd
 if __name__ == "__main__":
     socketio.run(app, debug=True)
